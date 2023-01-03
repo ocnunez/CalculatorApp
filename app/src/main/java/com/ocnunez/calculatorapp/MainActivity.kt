@@ -9,10 +9,12 @@ import com.ocnunez.calculatorapp.ui.theme.CalculatorAppTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Constants.BASE_URL
         setContent {
             CalculatorAppTheme {
+
+                }
                 CalculatorScreen()
             }
         }
     }
-}
