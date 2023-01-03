@@ -66,7 +66,7 @@ private val LightColorPalette = lightColorScheme(
 )
 
 @Composable
-fun MaterialCalculatorTheme(
+fun CalculatorAppTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
